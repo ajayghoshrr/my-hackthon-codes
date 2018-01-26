@@ -1,5 +1,24 @@
 # code for nestway drive. converting the digits to binary , count no of ones, finding smallest/common values
 
+'''
+Sample test case - 
+Input :
+3
+9
+6 2 11 1 9 14 13 4 18
+3
+7 3 1
+3
+1 2 4
+
+Output:
+
+1 6 11
+1 3 7 
+1
+
+
+'''
 
 #function for count the no of 1s - BIT MANIPULATION is used - Right shift
 def count_ones(n):
