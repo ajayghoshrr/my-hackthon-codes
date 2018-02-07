@@ -132,3 +132,51 @@ for i in range(no_of_test_cases):
 
 
 
+'''
+
+def helper(array1, array2):
+    if array2[0] > array1[0]:
+        out1 = int(array2[0]) - int(array1[0])
+        out2 = array1[0]
+    else:
+        out1 = int(array1[0]) - int(array2[0])
+        out2 = array2[0]
+    return out1, out2
+
+no_of_test_cases = int(input())
+for i in range(no_of_test_cases):
+    max_limit = int(input())
+    array_1 = raw_input()
+    array_2 = raw_input()
+    array1 = array_1.split()
+    array2 = array_2.split()
+    array1 = map(int, array1)
+    array2 = map(int, array2)
+    if max_limit != len(array1) or max_limit != len(array2):
+        print "No"
+    else:
+        if sorted(array1) == sorted(array2):
+            print "Yes"
+        elif len(set(array1) & set(array2)) == 0:
+            print "No"
+        else:
+            dj = []
+            for j in range(len(array1)):
+                if array1[j] in array2:
+                    io = array1[j]
+                    dj.append(io)
+                    array2.pop(array2.index(io))
+                else:
+                    pass
+            for k in dj:
+                array1.pop(array1.index(k))
+                
+            if len(array2) == 1 and len(array1) ==1:
+                 out1,out2=helper(array1,array2)
+                 print out1,out2
+            else:
+                print "No"
+                
+        '''
+
+
