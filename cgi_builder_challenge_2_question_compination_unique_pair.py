@@ -69,4 +69,34 @@ print s
 
 #-----------------------------------------------------------------
 
-#Roughwork ----
+#Roughwork ----optimized one
+
+from itertools import combinations
+from math import pow
+def find_comp(L):
+    #return [",".join(map(str, comb)) for comb in combinations(L, 2)]
+    return combinations(L, 2)
+
+for _ in xrange(input()):
+    a = map(int, raw_input().split())
+    b = map(int, raw_input().split())
+    def func(val):
+        mod_a = 1000000007
+        y = int(val[0])
+        x = int(val[1])
+        return abs((pow((x-y),int(a[1])))%mod_a * (pow((x+y),int(a[1]))%mod_a))
+    s = list(set(find_comp(b)))
+    #print s
+    #min = -9999
+    mn = []
+    for i in s:
+        #print i.split(',')
+        try:
+            x = func(sorted(i))
+            mn.append(x)
+        except OverflowError:
+            pass
+        #print x
+        
+    #print mn
+    print int(min(mn))
