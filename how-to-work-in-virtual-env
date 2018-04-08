@@ -1,0 +1,11 @@
+#virtual env
+
+#windows
+python -m pip install virtualenv
+python -m pip install virtualenvwrapper-win
+
+venv\Scripts\activate.bat
+
+(venv) c:\Python36-32>
+
+--------------------------------------------------------------------------
