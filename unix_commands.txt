@@ -1,0 +1,722 @@
+Files and Directories
+These commands allow you to create directories and handle files.
+
+Given below is the list of commands in Files and Directories.
+S.No.	Command & Description
+1	
+cat
+
+Displays File Contents
+
+2	
+cd
+
+Changes Directory to dirname
+
+3	
+chgrp
+
+Changes file group
+
+4	
+chmod
+
+Changes permissions
+
+5	
+cp
+
+Copies source file into destination
+
+6	
+file
+
+Determines file type
+
+7	
+find
+
+Finds files
+
+8	
+grep
+
+Searches files for regular expressions
+
+9	
+head
+
+Displays first few lines of a file
+
+10	
+ln
+
+Creates softlink on oldname
+
+11	
+ls
+
+Displays information about file type
+
+12	
+mkdir
+
+Creates a new directory dirname
+
+13	
+more
+
+Displays data in paginated form
+
+14	
+mv
+
+Moves (Renames) an oldname to newname
+
+15	
+pwd
+
+Prints current working directory
+
+16	
+rm
+
+Removes (Deletes) filename
+
+17	
+rmdir
+
+Deletes an existing directory provided it is empty
+
+18	
+tail
+
+Prints last few lines in a file
+
+19	
+touch
+
+Updates access and modification time of a file
+
+Manipulating data
+The contents of files can be compared and altered with the following commands.
+
+Given below is the list of commands in Manipulating data.
+S.No.	Command & Description
+1	
+awk
+
+Pattern scanning and processing language
+
+2	
+cmp
+
+Compares the contents of two files
+
+3	
+comm
+
+Compares sorted data
+
+4	
+cut
+
+Cuts out selected fields of each line of a file
+
+5	
+diff
+
+Differential file comparator
+
+6	
+expand
+
+Expands tabs to spaces
+
+7	
+join
+
+Joins files on some common field
+
+8	
+perl
+
+Data manipulation language
+
+9	
+sed
+
+Stream text editor
+
+10	
+sort
+
+Sorts file data
+
+11	
+split
+
+Splits file into smaller files
+
+12	
+tr
+
+Translates characters
+
+13	
+uniq
+
+Reports repeated lines in a file
+
+14	
+wc
+
+Counts words, lines, and characters
+
+15	
+vi
+
+Opens vi text editor
+
+16	
+vim
+
+Opens vim text editor
+
+17	
+fmt
+
+Simple text formatter
+
+18	
+spell
+
+Checks text for spelling error
+
+19	
+ispell
+
+Checks text for spelling error
+
+20	
+emacs
+
+GNU project Emacs
+
+21	
+ex, edit
+
+Line editor
+
+22	
+emacs
+
+GNU project Emacs
+
+Compressed Files
+Files may be compressed to save space. Compressed files can be created and examined.
+
+S.No.	Command & Description
+1	
+compress
+
+Compresses files
+
+2	
+gunzip
+
+Helps uncompress gzipped files
+
+3	
+gzip
+
+GNU alternative compression method
+
+4	
+uncompress
+
+Helps uncompress files
+
+5	
+unzip
+
+List, test and extract compressed files in a ZIP archive
+
+6	
+zcat
+
+Cat a compressed file
+
+7	
+zcmp
+
+Compares compressed files
+
+8	
+zdiff
+
+Compares compressed files
+
+9	
+zmore
+
+File perusal filter for crt viewing of compressed text
+
+Getting Information
+Various Unix manuals and documentation are available on-line. The following Shell commands give information -
+
+S.No.	Command & Description
+1	
+apropos
+
+Locates commands by keyword lookup
+
+2	
+info
+
+Displays command information pages online
+
+2	
+man
+
+Displays manual pages online
+
+3	
+whatis
+
+Searches the whatis database for complete words
+
+4	
+yelp
+
+GNOME help viewer
+
+Network Communication
+These following commands are used to send and receive files from a local Unix hosts to the remote host around the world.
+
+S.No.	Command & Description
+1	
+ftp
+
+File transfer program
+
+2	
+rcp
+
+Remote file copy
+
+3	
+rlogin
+
+Remote login to a Unix host
+
+4	
+rsh
+
+Remote shell
+
+5	
+tftp
+
+Trivial file transfer program
+
+6	
+telnet
+
+Makes terminal connection to another host
+
+7	
+ssh
+
+Secures shell terminal or command connection
+
+8	
+scp
+
+Secures shell remote file copy
+
+9	
+sftp
+
+Secures shell file transfer program
+
+Some of these commands may be restricted at your computer for security reasons.
+
+Messages between Users
+The Unix systems support on-screen messages to other users and world-wide electronic mail -
+
+S.No.	Command & Description
+1	
+evolution
+
+GUI mail handling tool on Linux
+
+2	
+mail
+
+Simple send or read mail program
+
+3	
+mesg
+
+Permits or denies messages
+
+4	
+parcel
+
+Sends files to another user
+
+5	
+pine
+
+Vdu-based mail utility
+
+6	
+talk
+
+Talks to another user
+
+7	
+write
+
+Writes message to another user
+
+Programming Utilities
+The following programming tools and languages are available based on what you have installed on your Unix.
+
+Given below is the list of tools and languages in Programming Utilities.
+S.No.	Command & Description
+1	
+dbx
+
+Sun debugger
+
+2	
+gdb
+
+GNU debugger
+
+3	
+make
+
+Maintains program groups and compile programs
+
+4	
+nm
+
+Prints program's name list
+
+5	
+size
+
+Prints program's sizes
+
+6	
+strip
+
+Removes symbol table and relocation bits
+
+7	
+cb
+
+C program beautifier
+
+8	
+cc
+
+ANSI C compiler for Suns SPARC systems
+
+9	
+ctrace
+
+C program debugger
+
+10	
+gcc
+
+GNU ANSI C Compiler
+
+11	
+indent
+
+Indent and format C program source
+
+12	
+bc
+
+Interactive arithmetic language processor
+
+13	
+gcl
+
+GNU Common Lisp
+
+14	
+perl
+
+General purpose language
+
+15	
+php
+
+Web page embedded language
+
+16	
+py
+
+Python language interpreter
+
+17	
+asp
+
+Web page embedded language
+
+18	
+CC
+
+C++ compiler for Suns SPARC systems
+
+19	
+g++
+
+GNU C++ Compiler
+
+20	
+javac
+
+JAVA compiler
+
+21	
+appletvieweir
+
+JAVA applet viewer
+
+22	
+netbeans
+
+Java integrated development environment on Linux
+
+23	
+sqlplus
+
+Runs the Oracle SQL interpreter
+
+24	
+sqlldr
+
+Runs the Oracle SQL data loader
+
+25	
+mysql
+
+Runs the mysql SQL interpreter
+
+Misc Commands
+These commands list or alter information about the system -
+
+Given below is the list of Misc Commands in Unix.
+S.No.	Command & Description
+1	
+chfn
+
+Changes your finger information
+
+2	
+chgrp
+
+Changes the group ownership of a file
+
+3	
+chown
+
+Changes owner
+
+4	
+date
+
+Prints the date
+
+5	
+determin
+
+Automatically finds terminal type
+
+6	
+du
+
+Prints amount of disk usage
+
+7	
+echo
+
+Echo arguments to the standard options
+
+8	
+exit
+
+Quits the system
+
+9	
+finger
+
+Prints information about logged-in users
+
+10	
+groupadd
+
+Creates a user group
+
+11	
+groups
+
+Show group memberships
+
+12	
+homequota
+
+Shows quota and file usage
+
+13	
+iostat
+
+Reports I/O statistics
+
+14	
+kill
+
+Sends a signal to a process
+
+15	
+last
+
+Shows last logins of users
+
+16	
+logout
+
+Logs off Unix
+
+17	
+lun
+
+Lists user names or login ID
+
+18	
+netstat
+
+Shows network status
+
+19	
+passwd
+
+Changes user password
+
+20	
+passwd
+
+Changes your login password
+
+21	
+printenv
+
+Displays value of a shell variable
+
+22	
+ps
+
+Displays the status of current processes
+
+23	
+ps
+
+Prints process status statistics
+
+24	
+quota -v
+
+Displays disk usage and limits
+
+25	
+reset
+
+Resets terminal mode
+
+26	
+script
+
+Keeps script of terminal session
+
+27	
+script
+
+Saves the output of a command or process
+
+28	
+setenv
+
+Sets environment variables
+
+30	
+stty
+
+Sets terminal options
+
+31	
+time
+
+Helps time a command
+
+32	
+top
+
+Displays all system processes
+
+33	
+tset
+
+Sets terminal mode
+
+34	
+tty
+
+Prints current terminal name
+
+35	
+umask
+
+Show the permissions that are given to view files by default
+
+36	
+uname
+
+Displays name of the current system
+
+37	
+uptime
+
+Gets the system up time
+
+38	
+useradd
+
+Creates a user account
+
+39	
+users
+
+Prints names of logged in users
+
+40	
+vmstat
+
+Reports virtual memory statistics
+
+41	
+w
+
+Shows what logged in users are doing
+
+42	
+who
+
+Lists logged in users
